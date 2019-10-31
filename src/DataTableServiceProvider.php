@@ -2,7 +2,6 @@
 
 namespace Jxlwqq\DataTable;
 
-use Egulias\EmailValidator\Warning\ObsoleteDTEXT;
 use Encore\Admin\Admin;
 use Illuminate\Support\ServiceProvider;
 
@@ -29,10 +28,8 @@ class DataTableServiceProvider extends ServiceProvider
         }
 
         Admin::booting(function () {
-            Admin::css('vendor/laravel-admin-ext/data-table/dataTables-1.10.19/dataTables.bootstrap.min.css');
-            Admin::js('vendor/laravel-admin-ext/data-table/dataTables-1.10.19/jquery.dataTables.min.js');
-            Admin::js('vendor/laravel-admin-ext/data-table/dataTables-1.10.19/dataTables.bootstrap.min.js');
+            Admin::css('vendor/laravel-admin-ext/data-table/dataTables-1.10.19/datatables.min.css');
+            Admin::js('vendor/laravel-admin-ext/data-table/dataTables-1.10.19/datatables.min.js');
         });
-
     }
 }
