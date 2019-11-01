@@ -142,7 +142,7 @@ class DataTable extends Widget implements Renderable
     {
         if (isset($options['language'])) {
             $language = ucfirst($options['language']);
-            $file = __DIR__ . "/../resources/assets/dataTables-1.10.19/plugins/i18n/{$language}.lang";
+            $file = __DIR__ . "/../resources/assets/plugins/i18n/{$language}.lang";
             if (file_exists($file)) {
                 $content = file_get_contents($file);
                 $content = substr($content, strpos($content, '{'));

@@ -28,8 +28,8 @@ class DataTableServiceProvider extends ServiceProvider
         }
 
         Admin::booting(function () {
-            Admin::css('vendor/laravel-admin-ext/data-table/dataTables-1.10.19/datatables.min.css');
-            Admin::js('vendor/laravel-admin-ext/data-table/dataTables-1.10.19/datatables.min.js');
+            Admin::css('vendor/laravel-admin-ext/data-table/datatables.min.css');
+            Admin::js('vendor/laravel-admin-ext/data-table/datatables.min.js');
         });
     }
 }
