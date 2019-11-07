@@ -19,7 +19,7 @@
 
 <script>
     $(function () {
-        $('.dataTable').DataTable(
+        $('#{{$id}}').DataTable(
             {!! $options !!}
         )
     })
