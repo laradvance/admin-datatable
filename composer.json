@@ -1,5 +1,5 @@
 {
-    "name": "laradvance/data-table",
+    "name": "laradvance/admin-datatable",
     "description": "dataTable for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
