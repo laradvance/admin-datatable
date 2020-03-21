@@ -154,6 +154,7 @@ class DataTable extends Widget implements Renderable
                 unset($options['language']);
             }
         }
+
         return $options;
     }
 }
