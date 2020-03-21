@@ -2,7 +2,7 @@
 
 **Add advanced interaction controls to your HTML tables** the free & easy way.
 
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+[![StyleCI](https://github.styleci.io/repos/213195318/shield?branch=master)](https://github.styleci.io/repos/213195318)
 
 ## ScreenShot
 
