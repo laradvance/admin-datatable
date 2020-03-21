@@ -1,9 +1,9 @@
 {
-    "name": "jxlwqq/data-table",
+    "name": "laradvance/data-table",
     "description": "dataTable for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/jxlwqq/data-table",
+    "homepage": "https://github.com/laradvance/data-table",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "encore/laravel-admin": "*"
+        "encore/laravel-admin": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0"
