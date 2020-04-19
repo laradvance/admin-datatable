@@ -1,3 +1,4 @@
+<div class="table-responsive">
 <table {!! $attributes !!} style="width:100%">
     <thead>
     <tr>
@@ -16,6 +17,7 @@
     @endforeach
     </tbody>
 </table>
+</div>
 
 <script>
     $(function () {
